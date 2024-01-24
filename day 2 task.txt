@@ -1,0 +1,25 @@
+﻿Question : Write a blog on difference between document and window objects
+Answer: Computer fit in the world around us by creating models of the real-time world objects. This we have discussed in previous task. Example : car .
+Car is an object, so it contains properties and methods in it.
+ var car = {
+     name: “xuv400” , 
+     engine : “electric” ,
+        move : 2
+     accelerator : function(){
+                this.move  +=  this.move;
+                }
+So by calling the accelerator method of the object the properties changes.
+Same in the browser every element of the HTML tag is converted into object by an API called DOM. DOM stands for document object model. Any changes made in the DOM tree is visible on the screen of the user.
+Example: <ul> 
+                        <li>Mango</li>
+                        <li><strong>Kashmiri</strong> Apples </li>
+                </ul>
+The API called as DOM will convert the above unlisted element and list elements in a tree model. Parent node of the li is ul element. Child elements of UL is Li elements. The child elements of Li element is the text and strong elements.
+By taking this into reference the Window Object Model contains objects that represent the current browser window tab. It contains objects that model things like browser history and the device’s screen. Inside the Window object the child elements are 
+1. Document which is a current web page,
+2. History which contains pages in browser history,
+3. Location which contains URL of current page,
+4. Navigator which contains information about Browser
+5. Screen which contains Device’s display information
+The Window object contains methods and properties, like print() is the method of the window object , and innerWidth and innerHeight are some of the properties of window object.
+The Document object contains the Web page as the object and which can be seen within the screen. It contains HTML, BODY elements as the child elements and so on.
